@@ -17,4 +17,5 @@ int main()
 
 	blockChain_RichCoin.addBlock(data1);
 	cout << "Chain is Valid: " << blockChain_RichCoin.isChainValid() << endl;
+	cout << blockChain_RichCoin.getLatestBlock()->getHash();
 }
